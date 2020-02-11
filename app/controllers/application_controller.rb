@@ -10,7 +10,11 @@ class ApplicationController < ActionController::Base
 
   def extract_locale_from_subdomain
     parsed_locale = request.subdomains.first
-    I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
+    if I18n.available_locales.map(&:to_s).include?parsed_locale
+      parsed_locale
+    else
+      nil
+    end
   end
 
   def default_url_options
