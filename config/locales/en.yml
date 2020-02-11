@@ -33,17 +33,17 @@ en:
                     Contact the Ruby on Rails Tutorial about the sample app at the
                     <a href="https://www.railstutorial.org/contact">contact page</a>.
                   </p>
+  new_html: <h1>Sign up</h1>
+            <p>This will be a signup page for new users.</p>
   base_title: Ruby on Rails Tutorial Sample App
-  footer_html: <small>
-                  The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-                  by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
-                </small>
-  footer1_html: <li><a href="http://news.railstutorial.org/">News</a></li>
-  header_html:  <li><%= link_to "Home",   "#" %></li>
-                <li><%= link_to "Help",   "#" %></li>
-                <li><%= link_to "Log in", "#" %></li>
-
-  footer2_html: <li><%= link_to "About",   '#' %></li>
-                <li><%= link_to "Contact", '#' %></li>
+  footer: The Ruby on Rails Tutorial by Michael Hartl
+  news: News
+  home: Home
+  help: Help
+  login: Log in
+  about: About
+  contact: Contact
+  signup: Sign up
+  signupnow: Sign up now
   english: English
   vietnam: VietNamese
