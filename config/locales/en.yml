@@ -27,9 +27,23 @@ en:
                     <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
                     book</a>.
                   </p>
-  layouts:
-    application:
-      app_html: <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    contact:
+      home1_html: <h1>Contact</h1>
+                  <p>
+                    Contact the Ruby on Rails Tutorial about the sample app at the
+                    <a href="https://www.railstutorial.org/contact">contact page</a>.
+                  </p>
+  base_title: Ruby on Rails Tutorial Sample App
+  footer_html: <small>
+                  The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+                  by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+                </small>
+  footer1_html: <li><a href="http://news.railstutorial.org/">News</a></li>
+  header_html:  <li><%= link_to "Home",   "#" %></li>
+                <li><%= link_to "Help",   "#" %></li>
+                <li><%= link_to "Log in", "#" %></li>
 
+  footer2_html: <li><%= link_to "About",   '#' %></li>
+                <li><%= link_to "Contact", '#' %></li>
   english: English
   vietnam: VietNamese
