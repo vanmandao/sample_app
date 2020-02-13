@@ -34,15 +34,15 @@ vi:
                     <a href="https://www.ra Whileutorial.org/contact"> trang liên hệ </a>.
                   </ p>
   base_title: Hướng dẫn ruby on rails ứng dụng đơn giản
-  footer_html: <small>
-                  <a href="https://www.railstutorial.org/">Hướng Dẫn Ruby On Rails</a>
-                  bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>
-                </small>
-  footer1_html: <li><a href="http://news.railstutorial.org/">Tin tức</a></li>
-  header_html:  <li><%= link_to "Trang chủ",   "#" %></li>
-                <li><%= link_to "Trợ giúp",   "#" %></li>
-                <li><%= link_to "Đăng nhập", "#" %></li>
-  footer2_html: <li><%= link_to "Hướng dẫn",   "# %></li>
-                <li><%= link_to "Liên hệ", "#" %></li>
+  footer: Hướng dẫn Ruby on Rails bởi Michael Hartl
+  news: Tin tức
+  home: Trang chủ
+  help: Trợ giúp
+  login: Đăng nhập
+  about: Hướng dẫn
+  contact: Liên hệ
+  new_html: <h1>Đăng ký</h1>
+            <p>Đây là trang đăng ký cho người mới</p>
+  signupnow: Đăng ký ngay
   english: Tieng Anh
   vietnam: Viet Nam
