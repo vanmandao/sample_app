@@ -41,8 +41,11 @@ vi:
   login: Đăng nhập
   about: Hướng dẫn
   contact: Liên hệ
-  new_html: <h1>Đăng ký</h1>
-            <p>Đây là trang đăng ký cho người mới</p>
+  signup: Đăng ký
   signupnow: Đăng ký ngay
+  create: Tạo tài khoản
+  confirmation: Xác nhận
+  not_found: không tìm thấy người dùng
+
   english: Tieng Anh
   vietnam: Viet Nam
