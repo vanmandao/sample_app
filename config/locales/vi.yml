@@ -33,6 +33,9 @@ vi:
                     Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
                     <a href="https://www.ra Whileutorial.org/contact"> trang liên hệ </a>.
                   </ p>
+  errors:
+    one : Đã xảy ra 1 lỗi
+    other : "Đã xảy ra %{count} lỗi"
   base_title: Hướng dẫn ruby on rails ứng dụng đơn giản
   footer: Hướng dẫn Ruby on Rails bởi Michael Hartl
   news: Tin tức
@@ -46,6 +49,5 @@ vi:
   create: Tạo tài khoản
   confirmation: Xác nhận
   not_found: không tìm thấy người dùng
-
   english: Tieng Anh
   vietnam: Viet Nam

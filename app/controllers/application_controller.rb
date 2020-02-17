@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
 
   def extract_locale_from_subdomain
     parsed_locale = request.subdomains.first
-    if I18n.available_locales.map(&:to_s).include?parsed_locale
+    if I18n.available_locales.map(&:to_s).include? parsed_locale
       parsed_locale
     else
       nil
